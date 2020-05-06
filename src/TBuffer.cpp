@@ -1689,6 +1689,7 @@ void TBuffer::translateToPlainText(std::string& incoming, const bool isFromServe
                     ++localBufferPosition;
                     continue;
                 }
+                localBuffer[localBufferPosition] = ch;
             }
         }
 
